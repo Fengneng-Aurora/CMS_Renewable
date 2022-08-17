@@ -1,0 +1,13 @@
+{
+    "itemGroup.cmsrenewable:base":"CMS Renewable",
+    "item.cmsrenewable.incomplete_elytra": "Incomplete Elytra",
+    "item.cmsrenewable.incomplete_netherite_scrap": "Incomplete Netherite Scrap",
+    "item.cmsrenewable.iron_elytra_frame": "Iron Elytra Frame",
+    "item.cmsrenewable.netherite_slag": "Netherite Slag",
+    "item.cmsrenewable.clean_coal": "Clean Coal",
+    "item.cmsrenewable.diamond_seed": "Diamond Seed",
+    "item.cmsrenewable.diamond_catalytic_substrate": "Diamond Catalytic Substrate",
+    "item.cmsrenewable.carbon_coated_diamond_seed": "Carbon Coated Diamond Seed",
+    "item.cmsrenewable.unpolished_diamond": "Unpolished Diamond",
+    "item.cmsrenewable.incomplete_unpolished_diamond": "Incomplete Unpolished Diamond"
+}

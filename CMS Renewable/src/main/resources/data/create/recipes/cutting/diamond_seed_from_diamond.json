@@ -1,0 +1,14 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "results": [
+      {
+        "item": "cmsrenewable:diamond_seed"
+      }
+    ],
+    "processingTime": 800
+  }

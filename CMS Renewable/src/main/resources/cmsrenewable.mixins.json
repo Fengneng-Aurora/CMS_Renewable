@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8.3",
+  "priority": 1000,
+  "package": "com.cms.cmsrenewable.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "cmsrenewable.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
