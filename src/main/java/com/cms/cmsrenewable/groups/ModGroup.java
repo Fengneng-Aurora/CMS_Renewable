@@ -15,6 +15,6 @@ public class ModGroup extends CreativeModeTab {
 
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(CMSRItems.IRON_ELYTRA_FRAME.get());
+        return new ItemStack(CMSRItems.INACTIVE_ELYTRA.get());
     }
 }

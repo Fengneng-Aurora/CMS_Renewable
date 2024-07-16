@@ -1,0 +1,15 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      " II ",
+      "I  I"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "result": {
+      "item": "cmsrenewable:elytra_embryo"
+    }
+  }

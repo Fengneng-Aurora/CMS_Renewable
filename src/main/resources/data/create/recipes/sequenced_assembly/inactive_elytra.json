@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cmsrenewable:elytra_embryo"
+  },
+  "transitionalItem": {
+    "item": "cmsrenewable:incomplete_inactive_elytra"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cmsrenewable:incomplete_inactive_elytra"
+        },
+        {
+          "item": "cmsrenewable:shulker_fibre"
+        }
+      ],
+      "results": [
+        {
+          "item": "cmsrenewable:incomplete_inactive_elytra"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "cmsrenewable:inactive_elytra"
+    }
+  ],
+  "loops": 64
+}

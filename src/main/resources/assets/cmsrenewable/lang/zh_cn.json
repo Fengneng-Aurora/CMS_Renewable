@@ -1,13 +1,12 @@
 {
-    "itemGroup.cmsrenewable:base":"CMS 可再生工艺",
-    "item.cmsrenewable.incomplete_elytra": "鞘翅（半成品）",
-    "item.cmsrenewable.incomplete_netherite_scrap": "下界合金碎片（半成品）",
-    "item.cmsrenewable.iron_elytra_frame": "铁质鞘翅框架",
-    "item.cmsrenewable.netherite_slag": "下界合金碴",
-    "item.cmsrenewable.clean_coal": "精碳粉",
-    "item.cmsrenewable.diamond_seed": "钻种",
-    "item.cmsrenewable.diamond_catalytic_substrate": "钻钟基底",
-    "item.cmsrenewable.carbon_coated_diamond_seed": "覆碳钻种",
-    "item.cmsrenewable.unpolished_diamond": "未抛光钻",
-    "item.cmsrenewable.incomplete_unpolished_diamond": "未抛光钻（半成品）"
+  "itemGroup.cmsrenewable:base": "CMS 可再生工艺",
+  "item.cmsrenewable.incomplete_elytra": "鞘翅（半成品）",
+  "item.cmsrenewable.incomplete_netherite_scrap": "下界合金碎片（半成品）",
+  "item.cmsrenewable.rough_debris": "粗制残骸",
+  "item.cmsrenewable.shulker_fibre": "潜影纤维",
+  "item.cmsrenewable.incomplete_inactive_elytra": "非激发态鞘翅（半成品）",
+  "item.cmsrenewable.inactive_elytra": "非激发态鞘翅",
+  "item.cmsrenewable.elytra_embryo": "鞘翅胚",
+  "item.cmsrenewable.superplastic_debris": "超塑性残骸",
+  "item.cmsrenewable.ancient_residue": "远古残渣"
 }

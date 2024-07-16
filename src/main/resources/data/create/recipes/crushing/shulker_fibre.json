@@ -1,0 +1,18 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "minecraft:shulker_shell"
+      }
+    ],
+    "results": [
+      {
+        "item": "cmsrenewable:shulker_fibre",
+        "count": 3
+      },
+      {
+        "item": "cmsrenewable:shulker_fibre",
+        "chance": 0.5
+      }
+    ]
+  }

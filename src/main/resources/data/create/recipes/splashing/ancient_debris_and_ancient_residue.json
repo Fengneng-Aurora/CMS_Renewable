@@ -1,0 +1,17 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "cmsrenewable:superplastic_debris"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:ancient_debris"
+      },
+      {
+        "item": "cmsrenewable:ancient_residue",
+        "chance": 0.12
+      }
+    ]
+  }

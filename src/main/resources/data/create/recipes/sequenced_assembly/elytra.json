@@ -1,28 +1,12 @@
 {
     "type": "create:sequenced_assembly",
     "ingredient": {
-      "item": "cmsrenewable:iron_elytra_frame"
+      "item": "cmsrenewable:inactive_elytra"
     },
     "transitionalItem": {
       "item": "cmsrenewable:incomplete_elytra"
     },
     "sequence": [
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          {
-            "item": "cmsrenewable:incomplete_elytra"
-          },
-          {
-            "item": "minecraft:phantom_membrane"
-          }
-        ],
-        "results": [
-          {
-            "item": "cmsrenewable:incomplete_elytra"
-          }
-        ]
-      },
       {
         "type": "create:filling",
         "ingredients": [
@@ -31,7 +15,7 @@
           },
           {
             "fluid": "create:potion",
-            "amount": 1000,
+            "amount": 250,
             "nbt": {
               "Potion": "minecraft:long_slow_falling"
             }
@@ -54,7 +38,8 @@
           {
             "item": "cmsrenewable:incomplete_elytra"
           }
-        ]
+        ],
+        "heatRequirement": "heated"
       }
     ],
     "results": [
@@ -62,5 +47,5 @@
         "item": "minecraft:elytra"
       }
     ],
-    "loops": 5
+    "loops": 8
   }

@@ -20,38 +20,33 @@ public class CMSRItems {
             REGISTRATE.item("incomplete_netherite_scrap", SequencedAssemblyItem::new)
                     .register();
 
-    public static final ItemEntry <Item> IRON_ELYTRA_FRAME =
-            REGISTRATE.item("iron_elytra_frame", Item::new)
+    public static final ItemEntry <SequencedAssemblyItem> INCOMPLETE_INACTIVE_ELYTRA =
+            REGISTRATE.item("incomplete_inactive_elytra", SequencedAssemblyItem::new)
                     .properties(p -> p.stacksTo(1))
                     .register();
 
-    public static final ItemEntry <Item> NETHERITE_SLAG =
-            REGISTRATE.item("netherite_slag", Item::new)
+    public static final ItemEntry <Item> INACTIVE_ELYTRA =
+            REGISTRATE.item("inactive_elytra", Item::new)
                     .register();
 
-    public static final ItemEntry <Item> CLEAN_COAL =
-            REGISTRATE.item("clean_coal", Item::new)
+    public static final ItemEntry <Item> ROUGH_DEBRIS =
+            REGISTRATE.item("rough_debris", Item::new)
                     .register();
 
-    public static final ItemEntry <Item> DIAMOND_SEED =
-            REGISTRATE.item("diamond_seed", Item::new)
+    public static final ItemEntry <Item> SHULKER_FIBRE =
+            REGISTRATE.item("shulker_fibre", Item::new)
                     .register();
 
-    public static final ItemEntry <Item> DIAMOND_CATALYTIC_SUBSTRATE =
-            REGISTRATE.item("diamond_catalytic_substrate", Item::new)
+    public static final ItemEntry <Item> ELYTRA_EMBRYO =
+            REGISTRATE.item("elytra_embryo", Item::new)
                     .register();
 
-    public static final ItemEntry <Item> CARBON_COATED_DIAMOND_SEED =
-            REGISTRATE.item("carbon_coated_diamond_seed", Item::new)
+    public static final ItemEntry <Item> SUPERPLASTIC_DEBRIS =
+            REGISTRATE.item("superplastic_debris", Item::new)
                     .register();
 
-    public static final ItemEntry <Item> UNPOLISHED_DIAMOND =
-            REGISTRATE.item("unpolished_diamond", Item::new)
+    public static final ItemEntry <Item> ANCIENT_RESIDUE =
+            REGISTRATE.item("ancient_residue", Item::new)
                     .register();
-
-    public static final ItemEntry <SequencedAssemblyItem> INCOMPLETE_UNPOLISHED_DIAMOND =
-            REGISTRATE.item("incomplete_unpolished_diamond", SequencedAssemblyItem::new)
-                    .register();
-
     public static void register() {}
 }

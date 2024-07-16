@@ -1,0 +1,27 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "minecraft:bone_block",
+        "count": 8
+      },
+      {
+        "fluid": "minecraft:lava",
+        "nbt": {},
+        "amount": 1000
+      },
+      {
+        "item": "cmsrenewable:rough_debris"
+      }
+    ],
+    "results": [
+      {
+        "item": "cmsrenewable:superplastic_debris"
+      },
+      {
+        "item": "minecraft:netherrack",
+        "count": 4
+      }
+    ],
+    "heatRequirement": "superheated"
+  }

@@ -1,62 +1,69 @@
 {
-    "type": "create:sequenced_assembly",
-    "ingredient": {
-      "item": "cmsrenewable:netherite_slag"
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cmsrenewable:ancient_residue"
+  },
+  "transitionalItem": {
+    "item": "cmsrenewable:incomplete_netherite_scrap"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cmsrenewable:incomplete_netherite_scrap"
+        },
+        {
+          "item": "cmsrenewable:ancient_residue"
+        }
+      ],
+      "results": [
+        {
+          "item": "cmsrenewable:incomplete_netherite_scrap"
+        }
+      ]
     },
-    "transitionalItem": {
-      "item": "cmsrenewable:incomplete_netherite_scrap"
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cmsrenewable:incomplete_netherite_scrap"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:cinder_flour",
+          "chance": 0.03
+        },
+        {
+          "item": "cmsrenewable:incomplete_netherite_scrap"
+        }
+      ]
     },
-    "sequence": [
-      {
-        "type": "create:filling",
-        "ingredients": [
-          {
-            "item": "cmsrenewable:netherite_slag"
-          },
-          {
-            "fluid": "minecraft:lava",
-            "nbt": {},
-            "amount": 1000
-          }
-        ],
-        "results": [
-          {
-            "item": "cmsrenewable:netherite_slag"
-          }
-        ]
-      },
-      {
-        "type": "create:pressing",
-        "ingredients": [
-          {
-            "item": "cmsrenewable:netherite_slag"
-          }
-        ],
-        "results": [
-          {
-            "item": "cmsrenewable:netherite_slag"
-          }
-        ]
-      },
-      {
-        "type": "create:cutting",
-        "ingredients": [
-          {
-            "item": "cmsrenewable:netherite_slag"
-          }
-        ],
-        "results": [
-          {
-            "item": "cmsrenewable:netherite_slag"
-          }
-        ],
-        "processingTime": 7680
-      }
-    ],
-    "results": [
-      {
-        "item": "minecraft:netherite_scrap"
-      }
-    ],
-    "loops": 9
-  }
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "cmsrenewable:incomplete_netherite_scrap"
+        }
+      ],
+      "results": [
+        {
+          "item": "cmsrenewable:incomplete_netherite_scrap"
+        }
+      ],
+      "processingTime": 1536
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "chance": 0.64
+    },
+    {
+      "item": "create:cinder_flour",
+      "chance": 0.36
+    }
+  ],
+  "loops": 16
+}
