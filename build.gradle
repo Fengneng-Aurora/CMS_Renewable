@@ -121,6 +121,7 @@ dependencies {
 
     implementation fg.deobf("curse.maven:create-328085:3871258")
     implementation fg.deobf("curse.maven:flywheel-486392:3871082")
+    implementation fg.deobf("curse.maven:createbigcannons-646668:4033862")
 
     annotationProcessor "org.spongepowered:mixin:0.8.3:processor"
     testAnnotationProcessor "org.spongepowered:mixin:0.8.3:processor"
