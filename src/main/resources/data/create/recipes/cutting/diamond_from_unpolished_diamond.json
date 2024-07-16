@@ -1,0 +1,14 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+      {
+        "item": "cmsrenewable:unpolished_diamond"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "processingTime": 1000
+  }

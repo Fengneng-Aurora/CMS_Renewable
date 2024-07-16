@@ -1,0 +1,20 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "minecraft:iron_nugget"
+      },
+      {
+        "item": "minecraft:redstone"
+      },
+      {
+        "item": "cmsrenewable:diamond_seed"
+      }
+    ],
+    "results": [
+      {
+        "item": "cmsrenewable:diamond_catalytic_substrate"
+      }
+    ],
+    "heatRequirement": "superheated"
+  }

@@ -1,0 +1,13 @@
+{
+    "type": "create:sandpaper_polishing",
+    "ingredients": [
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "results": [
+      {
+        "item": "cmsrenewable:clean_coal"
+      }
+    ]
+  }

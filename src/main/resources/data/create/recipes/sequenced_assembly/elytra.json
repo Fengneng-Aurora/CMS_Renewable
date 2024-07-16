@@ -1,0 +1,66 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "cmsrenewable:iron_elytra_frame"
+    },
+    "transitionalItem": {
+      "item": "cmsrenewable:incomplete_elytra"
+    },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "cmsrenewable:incomplete_elytra"
+          },
+          {
+            "item": "minecraft:phantom_membrane"
+          }
+        ],
+        "results": [
+          {
+            "item": "cmsrenewable:incomplete_elytra"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "cmsrenewable:incomplete_elytra"
+          },
+          {
+            "fluid": "create:potion",
+            "amount": 1000,
+            "nbt": {
+              "Potion": "minecraft:long_slow_falling"
+            }
+          }
+        ],
+        "results": [
+          {
+            "item": "cmsrenewable:incomplete_elytra"
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "cmsrenewable:incomplete_elytra"
+          }
+        ],
+        "results": [
+          {
+            "item": "cmsrenewable:incomplete_elytra"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:elytra"
+      }
+    ],
+    "loops": 5
+  }

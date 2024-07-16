@@ -1,0 +1,14 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+      {
+        "item": "minecraft:deepslate_diamond_ore"
+      }
+    ],
+    "results": [
+      {
+        "item": "cmsrenewable:diamond_seed"
+      }
+    ],
+    "processingTime": 400
+  }
